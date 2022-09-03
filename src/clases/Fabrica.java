@@ -1,5 +1,7 @@
 package clases;
 
+import static enumerado.Color.ROJO;
+
 public class Fabrica extends Empresa{
 
     private Integer nAutosFabricados;
@@ -58,7 +60,7 @@ public class Fabrica extends Empresa{
     public Auto fabricarAuto(){
         if(verificarPiezas() == true){
             nAutosFabricados++;
-            Auto auto = new Auto();
+            Auto auto = new Auto(ROJO.getColor());
             nPiezas = nPiezas - 6;
             return auto;
         }else{return null;}

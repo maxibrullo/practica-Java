@@ -2,12 +2,19 @@ package enumerado;
 
 public enum Color {
 
-    DODGE,
-    FIAT,
-    SUBARU,
-    VOLKSWAGEN,
-    FORD,
-    RENAULT,
-    PEUGEOT
+    ROJO("rojo perlado"),
+    AZUL("azul marino"),
+    NEGRO("negro mate"),
+    BLANCO("blanco hielo"),
+    GRIS("gris topo");
 
+    private final String color;
+
+    Color(String color){
+        this.color = color;
+    }
+
+    public String getColor(){
+        return color;
+    }
 }
