@@ -13,6 +13,13 @@ public class Test {
         Empresa empresa2 = new Fabrica("Chrisley", 5, "02/09/1996",
                 "Mariano Moreno", 10659);
         imprimir(empresa2);
+
+        ((Fabrica)empresa2).comprarTodasLasPiezas();
+
+        System.out.println( '/' + ((Fabrica)empresa2).fabricarAuto().getColor() + " " + ((Fabrica)empresa2).fabricarAuto().getTipo().getDescripcion());
+
+
+
     }
     public static void imprimir(Empresa empresa){
         System.out.print(empresa.toString());

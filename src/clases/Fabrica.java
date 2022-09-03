@@ -1,12 +1,14 @@
 package clases;
 
+import enumerado.TipoAuto;
+
 import static enumerado.Color.ROJO;
 
 public class Fabrica extends Empresa{
 
     private Integer nAutosFabricados;
 
-    private Integer nPiezas;
+    private Integer nPiezas=0;
     private Boolean chasis = false;
     private Boolean motor = false;
     private Boolean ruedas = false;
@@ -60,10 +62,12 @@ public class Fabrica extends Empresa{
     public Auto fabricarAuto(){
         if(verificarPiezas() == true){
             nAutosFabricados++;
-            Auto auto = new Auto(ROJO.getColor());
+            Auto auto = new Auto(ROJO.getColor(), TipoAuto.FURGON);
             nPiezas = nPiezas - 6;
             return auto;
-        }else{return null;}
+        }else{
+            System.out.println("Faltan piezas para la fabricacion del auto.");
+            return null;}
     }
 
     @Override

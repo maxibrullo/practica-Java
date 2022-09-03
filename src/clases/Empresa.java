@@ -1,8 +1,6 @@
 package clases;
 
-import interfaz.Afip;
-
-public class Empresa implements Afip {
+public class Empresa {
 
     protected String nombre;
     protected Integer ingresosNetos;

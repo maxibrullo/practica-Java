@@ -1,15 +1,22 @@
 package clases;
 
-public class Auto {
-    private Integer maxV;
-    private Integer metrosFrenado;
-    private Integer nPuertas;
-    private String color;
+import enumerado.TipoAuto;
 
-    public Auto(String color){
-        maxV = 190;
-        metrosFrenado = 32;
-        nPuertas = 5;
+public class Auto {
+
+    private String color;
+    private TipoAuto tipo;
+
+    public Auto(String color,TipoAuto tipo){
         this.color = color;
+        this.tipo =tipo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public TipoAuto getTipo() {
+        return tipo;
     }
 }

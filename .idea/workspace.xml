@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565786cf-3e4f-4198-9670-e39f9b8c9f32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/enumerado/TipoAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/Concesionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/Concesionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clases/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clases/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clases/Fabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/Fabrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaz/Afip.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
