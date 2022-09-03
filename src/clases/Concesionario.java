@@ -14,6 +14,30 @@ public class Concesionario extends Empresa {
         this.nAutosVendidos = nAutosVendidos;
     }
 
+    public Color getAuto() {
+        return auto;
+    }
+
+    public void setAuto(Color auto) {
+        this.auto = auto;
+    }
+
+    public Integer getnAutos() {
+        return nAutos;
+    }
+
+    public void setnAutos(Integer nAutos) {
+        this.nAutos = nAutos;
+    }
+
+    public Integer getnAutosVendidos() {
+        return nAutosVendidos;
+    }
+
+    public void setnAutosVendidos(Integer nAutosVendidos) {
+        this.nAutosVendidos = nAutosVendidos;
+    }
+
     @Override
     public String toString() {
         return "Concesionario{" +
